@@ -295,6 +295,9 @@
     height: 70%;    
     padding: 3rem 3rem;
     align-self: center;
+    animation-duration: 5s;
+    animation-name: show;
+    animation-iteration-count: infinite;
     
     
     
@@ -302,6 +305,17 @@
     
 
     
+}
+
+@keyframes show{
+    0% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 4;
+
+    }
 }
 
 
